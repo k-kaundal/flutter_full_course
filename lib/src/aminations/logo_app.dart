@@ -8,11 +8,19 @@ class LogoApp extends StatefulWidget {
 
 class _LogoAppState extends State<LogoApp> with SingleTickerProviderStateMixin {
   late AnimationController _controller;
+  late Animation<double> _animation;
 
   @override
   void initState() {
     super.initState();
-    _controller = AnimationController(vsync: this);
+    _controller = AnimationController(duration:const Duration(seconds: 4) ,vsync: this);
+  _animation = Tween<double>(begin: 0,end: 300).animate(_controller)
+    ..addListener(() {
+      setState(() {
+
+      });
+    });
+  _controller.forward();
   }
 
   @override
@@ -23,6 +31,12 @@ class _LogoAppState extends State<LogoApp> with SingleTickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Center(child: Container(
+        height: _animation.value,
+        width: _animation.value,
+        child: FlutterLogo(),
+      )),
+    );
   }
 }
