@@ -37,10 +37,12 @@ class _AnimatedBuilderExampleState extends State<AnimatedBuilderExample>
         },
         child: Center(
           child: Container(
-            width: 200,
-            height: 200,
-            color: Colors.red,
-            child: FlutterLogo(),
+            width: 300,
+            height: 300,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.all(Radius.circular(180)),
+              image: DecorationImage(image: NetworkImage('https://creationcenter.org/wp-content/uploads/2018/04/The-Power-of-OM.jpg'))
+            ),
           ),
         ),
       ),

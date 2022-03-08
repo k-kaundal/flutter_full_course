@@ -4,6 +4,7 @@ import 'package:flutter_full_course/src/aminations/animated_builder_example.dart
 import 'package:flutter_full_course/src/aminations/animated_container_example.dart';
 import 'package:flutter_full_course/src/aminations/animated_cross_fade_example.dart';
 import 'package:flutter_full_course/src/aminations/animated_default_text_style_example.dart';
+import 'package:flutter_full_course/src/aminations/example_screen/builder_cross_fade.dart';
 import 'package:flutter_full_course/src/aminations/hero_animation_example.dart';
 import 'package:flutter_full_course/src/aminations/tween_animation_example.dart';
 import 'package:flutter_full_course/src/hooks/hooks_gallery_app.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
-      home: const AnimatedDefaultTextStyleExample(),
+      home: const BuilderCrossFade(),
     );
   }
 }
