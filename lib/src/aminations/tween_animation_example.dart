@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-class LogoApp extends StatefulWidget {
-  const LogoApp({Key? key}) : super(key: key);
+class TweenAnimationExample extends StatefulWidget {
+  const TweenAnimationExample({Key? key}) : super(key: key);
 
   @override
-  State<LogoApp> createState() => _LogoAppState();
+  State<TweenAnimationExample> createState() => _TweenAnimationExampleState();
 }
 
-class _LogoAppState extends State<LogoApp> with SingleTickerProviderStateMixin {
+class _TweenAnimationExampleState extends State<TweenAnimationExample> with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _animation;
 
