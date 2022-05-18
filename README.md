@@ -26,3 +26,7 @@ A ticker is a class that listens to frameCallback and calls a tick function that
 ##Cross Fade Animation
 
 <img src="https://github.com/codelabs-live/flutter_full_course/blob/master/screenshorts/cross_fade_animation.png" height="400" />
+
+##Transaction List Design
+
+<img src="https://github.com/codelabs-live/flutter_full_course/blob/master/screenshorts/transaction_list_design.png" height="400"/>

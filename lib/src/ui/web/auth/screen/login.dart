@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_full_course/src/ui/web/auth/common/login_form.dart';
 import 'package:flutter_full_course/src/utils/size_config.dart';
-import 'package:flutter_full_course/src/web/auth/common/login_form.dart';
 
 class Login extends StatefulWidget {
   const Login({Key? key}) : super(key: key);

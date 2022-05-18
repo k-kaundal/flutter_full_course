@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_course/src/aminations/helper/photo_hero.dart';
+import 'package:flutter_full_course/src/ui/aminations/helper/photo_hero.dart';
 
 class HeroAnimationExample extends StatefulWidget {
   const HeroAnimationExample({Key? key}) : super(key: key);
@@ -39,13 +39,11 @@ class _HeroAnimationExampleState extends State<HeroAnimationExample>
                   color: Colors.lightBlueAccent,
                   padding: const EdgeInsets.all(16.0),
                   alignment: Alignment.topLeft,
-                  child: PhotoHero(
-                    photo: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
+                  child: PhotoHero( photo: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
                     width: 100.0,
                     onTap: () {
                       Navigator.of(context).pop();
-                    },
-                  ),
+                    },)
                 ),
               );
             }));
