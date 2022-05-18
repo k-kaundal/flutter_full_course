@@ -17,3 +17,12 @@ This defines the begin and end values along with how to how move from the beginn
 
 ##Ticker: 
 A ticker is a class that listens to frameCallback and calls a tick function that passes the elapsed duration between the current frame and the last frame to the ticker listener. In our case the controller.
+
+
+
+
+##Example
+
+##Cross Fade Animation
+
+<img src="https://github.com/codelabs-live/flutter_full_course/blob/master/screenshorts/cross_fade_animation.png" height="300" />
