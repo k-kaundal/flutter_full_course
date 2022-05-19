@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_full_course/src/ui/custom_clipping/clipper_example.dart';
 import 'package:flutter_full_course/src/ui/main_home.dart';
 import 'package:flutter_full_course/src/ui/web/home.dart';
 
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
-      home: const MainHome(),
+      home: const CustomClipperExample(),
     );
   }
 }

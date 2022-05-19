@@ -30,3 +30,7 @@ A ticker is a class that listens to frameCallback and calls a tick function that
 ##Transaction List Design
 
 <img src="https://github.com/codelabs-live/flutter_full_course/blob/master/screenshorts/transaction_list_design.png" height="400"/>
+
+##Transaction List Design
+
+<img src="https://github.com/codelabs-live/flutter_full_course/blob/master/screenshorts/custom_clipper.png" height="400"/>
